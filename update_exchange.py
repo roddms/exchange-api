@@ -30,7 +30,7 @@ def update_readme():
     now = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
     readme_content = f"""
-# Weather API Status
+# 환율 API Status
 
 이 리포지토리는 환율 정보를 5분마다 자동으로 업데이트합니다.
 
