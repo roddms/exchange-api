@@ -8,7 +8,7 @@ load_dotenv()
 today = datetime.today().strftime("%Y%m%d")
 
 API_KEY = os.getenv("AUTHKEY")
-URL = f"https://www.koreaexim.go.kr/site/program/financial/exchangeJSON?{API_KEY}&searchdate={today}&data=AP01"
+URL = f"https://www.koreaexim.go.kr/site/program/financial/exchangeJSON?authkey={API_KEY}&searchdate={today}&data=AP01"
 
 # README 파일 경로
 README_PATH = "README.md"
