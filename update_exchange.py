@@ -5,8 +5,8 @@ from dotenv import load_dotenv
 from datetime import datetime
 
 load_dotenv()
-today = datetime.today().strftime("%Y%m%d")
 
+today = datetime.today().strftime("%Y%m%d")
 API_KEY = os.getenv("AUTHKEY")
 URL = f"https://www.koreaexim.go.kr/site/program/financial/exchangeJSON?authkey={API_KEY}&searchdate={today}&data=AP01"
 
